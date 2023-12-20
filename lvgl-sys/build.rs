@@ -226,8 +226,8 @@ fn main() {
         .generate_comments(false)
         .derive_default(true)
         .layout_tests(false)
-        /*.use_core()
-        .ctypes_prefix("::core::ffi")*/
+        /*.use_core()*/
+        .ctypes_prefix("::core::ffi")
         .clang_args(&cc_args)
         .clang_args(&additional_args)
         .generate()
