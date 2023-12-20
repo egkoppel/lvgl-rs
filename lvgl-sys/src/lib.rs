@@ -5,6 +5,8 @@
 #![allow(clippy::too_many_arguments)]
 #![allow(clippy::redundant_static_lifetimes)]
 
+#![feature(c_size_t)]
+
 include!(concat!(env!("OUT_DIR"), "/bindings.rs"));
 
 pub fn _bindgen_raw_src() -> &'static str {

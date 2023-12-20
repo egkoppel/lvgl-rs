@@ -5,7 +5,7 @@ use core::{
     ptr::NonNull,
     time::Duration,
 };
-use cty::c_void;
+use core::ffi::c_void;
 
 /// A repetition count for an animation, finite or infinite.
 #[repr(u16)]
