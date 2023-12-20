@@ -28,7 +28,7 @@ name = "lvgl_sys"
 
 [build-dependencies]
 cc = { version = "1.0.79", features = ["parallel"] }
-bindgen = { version = "0.65.1", default-features = false, features = ["logging", "runtime"] }
+bindgen = { version = "0.69.1", default-features = false, features = ["logging", "runtime"] }
 
 [features]
 use-vendored-config = []
