@@ -25,7 +25,6 @@ exclude = [
 name = "lvgl_sys"
 
 [dependencies]
-cty = "0.2.2"
 
 [build-dependencies]
 cc = { version = "1.0.79", features = ["parallel"] }
